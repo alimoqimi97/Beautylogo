@@ -1,0 +1,92 @@
+
+
+.b-yekan-font
+{
+    font-family:  B  Yekan;
+    color: white;
+}
+.absolute-position
+{
+	position: absolute !important;
+}
+.stick-to-right
+{
+	right: 0.1%;
+}
+.stick-to-left
+{
+	left:  0.1%;
+}
+.stick-to-top
+{
+	top:  0.1%;
+}
+.stick-to-down
+{
+	down:  0.1%;
+}
+.half-opacity
+{
+	opacity:  0.5;
+}
+.nav-border-styles
+{
+	border-style: solid;
+	border-color: #536b75;
+	border-width: 2px;
+	border-radius:  10px;
+}
+.nav-fixed-position
+{
+	position: fixed;
+}
+.nav-styles
+{
+	background-color:  gray;
+	color: white;
+	position: fixed  !important;
+	top: 0;
+	width: 100%;
+	opacity: 0.6;
+	border-bottom: white 2px solid;
+}
+.ease-nav-link
+{
+	transition:  ease  0.4s;
+}
+.ease-nav-link:hover
+{
+	color:  lightseagreen;
+	/*background-color: lightgreen;*/
+}
+.ease-nav-link:focus
+{
+	color: blue;
+}
+
+.hight-priority
+{
+	z-index: 100;
+}
+
+
+@media only screen and (max-width: 360px){
+	.nav-styles{
+		left: 0;
+	}
+
+	.navbar-nav{
+		display: inline-block !important;
+		width: 100%;
+	}
+	.navbar-nav li{
+		position: relative;
+		width: 25%;
+		display: inline-block;
+		text-align: right;
+	}
+	
+	.navbar-nav li a:hover{
+		color: lightskyblue;
+	}
+}

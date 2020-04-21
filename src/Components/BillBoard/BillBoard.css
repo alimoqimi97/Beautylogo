@@ -1,0 +1,29 @@
+.bill-board
+{
+	/* width: 50%; */
+	height: 60%;
+	/* top: 10%; */
+	right: 6.6%;
+	background-color: #94acae;
+}
+
+.caption-style
+{
+	background-color: lightgray;
+	opacity: 0.8;
+}
+.caption-style h1
+{
+	opacity: 1 !important;
+}
+
+
+@media only screen and (max-width: 360px)
+{
+	.bill-board{
+		right: 0;
+		height: 33%;
+		margin-top: 13%;
+		/* top: 10%; */
+	}
+}

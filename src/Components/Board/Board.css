@@ -1,0 +1,56 @@
+
+.board-style
+{
+	/* position: absolute; */
+	/* top: 70%; */
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: white;
+	/* height: 29%; */
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	border-radius: 3px;
+}
+.b-yekan
+{
+	font-family: B Yekan;
+}
+
+.board-row
+{
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+	border-radius: 3px;
+	background-color: aliceblue;
+	position: relative;
+	top: 9%;
+}
+
+.margin-top-20px
+{
+	margin-top: 20px;
+}
+
+.zar
+{
+	font-family: Zar;
+	font-size: 25px;
+}
+
+.title-border-style
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width: 360px)
+{
+	.board-style{
+		top: 55%;
+		right: 0;
+	}
+}

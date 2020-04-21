@@ -1,0 +1,63 @@
+
+
+.zar{
+    font-family: Zar;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    /* color: gray; */
+}
+
+.adv-background
+{
+    background-color: lightsteelblue;
+}
+
+/* .adv-sizes{
+    width: 200px;
+    height: 360px;
+} */
+
+.adv-place-style
+{
+    padding: 20px;
+    border-style: dashed;
+    border-color: white;
+    border-width: 3px;
+}
+
+.adv-place-style p
+{
+    float: right;
+    text-align: center;
+    top: 30%;
+    position: relative;
+}
+
+/* view for desktop and laptop */
+@media only screen and (min-width: 1200px){
+
+    .adv-place-style{
+        position: absolute;
+        top: 3.5%;
+        height: 94%;
+        /* height:  */
+    }
+}
+
+/* view for mobile phones */
+@media only screen and (max-width: 360px){
+
+    .adv-place-style{
+        position: relative;
+        height: 81%;
+        width: 100%;
+        font-size: 23px;
+        padding: 14%;
+        top: 7%;
+    }
+    .adv-place-style p{
+        top: -35%;
+        margin: 0;
+    }
+}

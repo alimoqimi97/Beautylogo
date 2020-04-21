@@ -1,0 +1,41 @@
+
+.app-bg-color
+{
+	height: 1300px;
+}
+
+#advlist{
+	width: 34%;
+	padding-left: 0;
+}
+
+#advlist li{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+
+
+@media only screen and (max-width: 360px){
+
+	#advlist{
+		width: 100%;
+		/* height: 14%; */
+		/* margin: 0; */
+		/* top: 43%; */
+		/* position: absolute; */
+		left: 0;
+		padding: 0;
+	}
+
+	#advlist li{
+		display: inline-block;
+		height: 100%;
+		position: relative;
+		width: 50%;
+	}
+}
+
+

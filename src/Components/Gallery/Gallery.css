@@ -1,0 +1,35 @@
+
+.swiper-frame{
+  height: 35%;
+  background-color: #c3d2ed;
+  border-style: solid;
+  border-width: 1px;
+  border-color:gray;
+  border-radius: 5px;
+}
+
+#slide-image
+{
+  width: 50% ;
+  height: 80%;
+  margin-left: 25%;
+  margin-top: 5%;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 8px;
+  transition: ease 0.2s;
+}
+
+#slide-image:hover{
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+@media only screen and (max-width: 360px){
+
+  .swiper-frame{
+    height: 13%;
+    /* top: 173%; */
+  }
+}

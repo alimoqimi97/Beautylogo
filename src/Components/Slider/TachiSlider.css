@@ -1,0 +1,98 @@
+.slide-container {
+	width: 70%;
+	margin: auto; }
+
+h3 {
+	text-align: center;
+}
+
+.each-slide > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 300px;
+}
+
+.each-slide span {
+	padding: 20px;
+	font-size: 20px;
+	background: #efefef;
+	text-align: center;
+}
+
+.each-fade {
+	display: flex;
+}
+
+.each-fade .image-container {
+	width: 75%;
+	overflow: hidden;
+}
+
+.each-fade .image-container img {
+	width: 100%;
+}
+
+.each-fade h2 {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background: #adceed;
+}
+
+.hightlight-it
+{
+	background-color: #e1e8ff;
+	position: absolute;
+	top: 160%;
+	/* left: 0; */
+}
+
+.background-cover
+{
+	background-size: cover;
+}
+
+.height-600px
+{
+	height: 630px !important;
+}
+.gerd
+{
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 500px;
+	border-color: black;
+}
+
+.come-center
+{
+	position: relative;
+	left: 50%;
+	bottom: 20px;
+}
+
+
+@media only screen and (max-width: 360px){
+
+	.each-slide div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-size: contain;
+		/* height: 300px; */
+		background-repeat: no-repeat;
+	}
+
+	.hightlight-it{
+		left: 0;
+		top: 172%;
+	}
+
+	.react-slideshow-container .nav{
+		margin-top: 20px;
+	}
+}
